@@ -323,6 +323,22 @@ enum { DRAWING_GRP_NONE = 0, DRAWING_GRP_VERSE, DRAWING_GRP_HARM, DRAWING_GRP_OT
 
 enum ArticPartType { ARTIC_PART_INSIDE = 0, ARTIC_PART_OUTSIDE };
 
+    
+//----------------------------------------------------------------------------
+// Note head stem position
+//----------------------------------------------------------------------------
+
+enum NoteHeadStemPosition {
+    NOTE_HEAD_NORTH = 0,
+    NOTE_HEAD_NORTH_EAST,
+    NOTE_HEAD_EAST,
+    NOTE_HEAD_SOUTH_EAST,
+    NOTE_HEAD_SOUTH,
+    NOTE_HEAD_SOUTH_WEST,
+    NOTE_HEAD_WEST,
+    NOTE_HEAD_NORTH_WEST
+};
+    
 //----------------------------------------------------------------------------
 // Legacy Wolfgang defines
 //----------------------------------------------------------------------------
